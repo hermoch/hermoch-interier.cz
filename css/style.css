@@ -1,0 +1,98 @@
+html, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(31, 24, 24, 0.75)), url("../img/1.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.top-bar {
+  background: linear-gradient(to right, rgba(57, 95, 96, 0.9), rgba(57, 95, 96, 0.9)), url("../img/texture.jpg");
+}
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar p {
+  color: #fff;
+}
+.top-bar ul {
+  margin: 0;
+  padding: 0;
+}
+.top-bar li {
+  display: inline-block;
+  padding: 10px 0;
+}
+.top-bar a {
+  color: #fff;
+}
+.top-bar li:first-of-type a {
+  border-right: 1px solid #000;
+  border-color: #fff;
+  padding-right: 0.75em;
+}
+.top-bar li:last-of-type a {
+  padding-left: 0.75em;
+}
+
+nav {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4), white, white, rgba(255, 255, 255, 0.4)), url("../img/texture.jpg") center center no-repeat;
+  background-size: cover;
+}
+nav .container {
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  padding: 1.25em 0;
+}
+nav a {
+  font-size: 1.25em;
+  padding: 0.75em;
+  text-transform: uppercase;
+}
+
+.brand {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.brand img {
+  width: 27.5em;
+  border-bottom: 1px solid #395f60;
+  margin-bottom: 1em;
+}
+.brand p {
+  color: #395f60;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
